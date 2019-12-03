@@ -1,0 +1,11 @@
+{
+  "testRegex": "((\\.|/*.)(test))\\.js?$",
+  "moduleNameMapper": {
+    "#api(.*)$": "<rootDir>/src/api/$1",
+    "#assets(.*)$": "<rootDir>/src/assets/$1",
+    "#components(.*)$": "<rootDir>/src/components/$1",
+    "\\.(css|less|sass|scss)$": "<rootDir>/node_modules/jest-css-modules"
+  },
+  "setupFiles": ["<rootDir>/enzyme.setup.js", "@babel/polyfill"],
+  "snapshotSerializers": ["enzyme-to-json/serializer"]
+}

@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Search Form 1`] = `
+<form
+  autoComplete="off"
+  className="makeStyles-container-1"
+  noValidate={true}
+  onSubmit={[Function]}
+>
+  <div
+    className="search"
+  >
+    <input
+      autoFocus={true}
+      className="search-box"
+      onChange={[Function]}
+      role="input"
+      tabIndex="1"
+      type="text"
+      value=""
+    />
+    <WithStyles(ForwardRef(Button))
+      className="makeStyles-iconButton-2"
+      onClick={[Function]}
+      tabIndex="2"
+      variant="outlined"
+    >
+      <SearchIcon />
+    </WithStyles(ForwardRef(Button))>
+  </div>
+  <WithStyles(ForwardRef(FormControl))
+    className="makeStyles-formControl-3"
+    component="div"
+    required={true}
+  >
+    <ForwardRef(RadioGroup)
+      aria-label=""
+      defaultValue={2}
+      name="imgPerPage"
+      onChange={[Function]}
+      row={true}
+      value={2}
+    >
+      <WithStyles(ForwardRef(FormControlLabel))
+        checked={true}
+        control={<ForwardRef(WithStyles) />}
+        label="2"
+        tabIndex="3"
+        value={2}
+      />
+      <WithStyles(ForwardRef(FormControlLabel))
+        checked={false}
+        control={<ForwardRef(WithStyles) />}
+        label="10"
+        tabIndex="4"
+        value={10}
+      />
+      <WithStyles(ForwardRef(FormControlLabel))
+        checked={false}
+        control={<ForwardRef(WithStyles) />}
+        label="30"
+        tabIndex="5"
+        value={30}
+      />
+    </ForwardRef(RadioGroup)>
+  </WithStyles(ForwardRef(FormControl))>
+</form>
+`;

@@ -1,0 +1,26 @@
+.search {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+.search-box {
+  font: inherit;
+  color: #000;
+  width: 100%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px #3f51b5 solid;
+  height: 1.1875em;
+  margin: 0;
+  display: block;
+  padding: 6px 0 7px;
+  min-width: 90%;
+  background: none;
+  animation-name: MuiInputBase-keyframes-auto-fill-cancel;
+  -webkit-tap-highlight-color: transparent;
+}
+.search-box:focus {
+  outline: none;
+}
