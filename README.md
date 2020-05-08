@@ -1,4 +1,4 @@
-# Maxamation Tech Challenge
+# React without Redux, with jest testing setting
 
 ## Run Application
 
