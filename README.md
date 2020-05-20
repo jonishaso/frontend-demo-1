@@ -3,7 +3,7 @@
 ## Run Application
 
 ```bash
-cd path/to/maxamation
+cd path/to/folder
 cp ./.env.example ./.env
 npm i
 npm run watch
